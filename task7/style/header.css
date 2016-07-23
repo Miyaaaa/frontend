@@ -1,0 +1,93 @@
+*{
+    margin : 0px;
+    padding : 0px;
+    font-family: 微软雅黑;
+    font-size: 12px;
+}
+body{
+    min-width: 1280px;
+    /*overflow: visible;*/
+}
+/*header begin*/
+header{
+    margin : 0px;
+    width : 100%;
+    height : 58px;
+    vertical-align : middle;
+}
+header .header_left{
+    float : left;
+    height : 58px;
+    width : 150px;
+    margin-left : 60px;
+    padding : 0px;
+    vertical-align : middle;
+    overflow: hidden;
+    position : relative;
+}
+header .pic1{
+    height : 30px;
+    width : 30px;
+    margin: 9px 5px 9px 0px;
+}
+header .newworld{
+    position: absolute;
+    top : 15px;
+    left : 36px;
+    margin : 0px;
+    font-family: 黑体;
+    font-size : 21px;
+}
+header .header_right{
+    float : right;
+    height : 58px;
+    width : 50px;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 60px;
+    margin-left: 10px;
+}
+header .enroll{
+    position : absolute;
+    right : 0px;
+    top : 20px;
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color : #e74f4d;
+    text-decoration: none;
+}
+header .pic2{
+    margin : 19px 5px 0px 0px;
+
+}
+
+header nav ul li{
+    float : right;
+    line-height: 58px;
+}
+header li {
+    list-style-type: none;
+    display: inline-block;
+    text-align: center;
+    margin-right: 20px;
+    width : 65px;
+    height : 58px;
+}
+header li a{
+    text-decoration: none; /*去掉下划线*/
+    font-family: 微软雅黑;
+    font-size: 14px;
+    color : #808080;
+}
+header .active {
+    border-bottom: 5px solid #e74f4d;
+}
+header .first_page{
+    color : #e74f4d;
+}
+header li a:hover{
+    color : #e74f4d;
+}
+/*header end*/
+
+
