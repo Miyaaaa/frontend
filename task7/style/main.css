@@ -194,19 +194,63 @@ main .div1_red p{
 }
 .main_div6 img{
     width:66%;
-    float:left;
+    height:100%;
+    float: left;
 }
 .div6_sub1{
+    padding-top: 170px;
     width:34%;
+    height:100%;
     float:right;
+    text-align: center;
+}
+.div6_sub1 .title{
+    font-family: "微软雅黑";
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.div6_sub1 .title span{
+    font-size: 21px;
+    color: #e74f4d;
+}
+.div6_sub1 .content{
+    font-family: "微软雅黑";
+    width:60%;
+    margin:0 auto;
+    font-size: 12px;
+    line-height: 30px;
+    color: #aaa;
+}
+.div6_sub1 .more_detail{
+    margin-top:40px;
+    width:105px;
+    height:35px;
+    line-height: 35px;
+    color: #e25c60;
+    display: inline-block;
+    border:1px solid #e25c60;
+}
+.div6_sub1 ul li{
+    display: inline-block;
+    border-radius: 5px;
+    border: 1px solid #8F8F8F;;
+    height:8px;
+    width:8px;
+    margin:40px 5px 0;
+}
+.div6_sub1 ul li.checked{
+    background-color: #8F8F8F;
 }
 .main_div7{
     width:100%;
+    height:520px;
     overflow: hidden;
 }
 .div7_sub{
+    display: inline-block;
     width:33%;
     height:100%;
+    padding-top: 190px;
     float:left;
     text-align: center;
     overflow: hidden;
@@ -242,7 +286,10 @@ main .div1_red p{
 #div7_pic1{
     width:34%;
 }
-.div7_sub_left{
+#div7_sub_left{
     background-color: #e74f4d;
     color: #fff;
+}
+#div7_sub_center{
+    color: #e74f4d;
 }
